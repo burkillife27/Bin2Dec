@@ -56,3 +56,13 @@ Bin2Dec/
 
 ## 📝 Lisans
 Bu proje açık kaynaklıdır ve eğitim/öğrenme amacıyla serbestçe kullanılabilir (MIT Lisansı).
+
+
+<img width="334" height="189" alt="Uİ_1" src="https://github.com/user-attachments/assets/762230c7-747c-4333-b0d2-3de4adf02401" />
+
+<img width="343" height="189" alt="UI_2" src="https://github.com/user-attachments/assets/f660203e-da69-42cc-a1de-dba8fbb7ee2c" />
+
+<img width="344" height="191" alt="UI_3" src="https://github.com/user-attachments/assets/23933808-1640-4194-8106-43186d03f685" />
+
+
+
