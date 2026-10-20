@@ -1,11 +1,11 @@
 #ikili_sayi = input("En fazla 8 haneli bir ikili sayı (binary) giriniz:")
 
 
-def ikiliyi_ondaliga_cevir(ikili_sayi):
+def ikiliyi_ondaliga_cevir(ikili_sayi, sinirsiz=False):
     ondalik_deger = 0
     us = 0
 
-    if len(ikili_sayi) > 8:
+    if len(ikili_sayi) > 8 and sinirsiz == False:
         return "HATA! Girdiğiniz sayı 8 karakterden fazla."
 
     else:
