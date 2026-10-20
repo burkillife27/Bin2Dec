@@ -10,6 +10,10 @@ def butona_tiklandiginda():
     sinirsiz_secili = sinirsiz_durumu.get()
     sonuc = ikiliyi_ondaliga_cevir(sayi, sinirsiz=sinirsiz_secili)
     sonuc_etiketi.config(text=sonuc)
+    if "HATA" in sonuc:
+        sonuc_etiketi.config(text=sonuc, fg="red")
+    else:
+        sonuc_etiketi.config(text=sonuc, fg="green")
 
 etiket = tk.Label(pencere, text="Bir ikili sayı giriniz:")
 giris_kutusu = tk.Entry(pencere)
@@ -27,5 +31,7 @@ giris_kutusu.pack(pady=5)
 buton.pack(pady=10)
 sonuc_etiketi.pack(pady=10)
 onay_kutusu.pack(pady=5)
+
+pencere.bind("<Return>", lambda event: butona_tiklandiginda())
 
 pencere.mainloop()
