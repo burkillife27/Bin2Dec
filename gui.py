@@ -9,7 +9,6 @@ def butona_tiklandiginda():
     sayi = giris_kutusu.get()
     sinirsiz_secili = sinirsiz_durumu.get()
     sonuc = ikiliyi_ondaliga_cevir(sayi, sinirsiz=sinirsiz_secili)
-    sonuc_etiketi.config(text=sonuc)
     if "HATA" in sonuc:
         sonuc_etiketi.config(text=sonuc, fg="red")
     else:
